@@ -1,4 +1,4 @@
-package javabasics._14;
+package Esercizi_Java.Es_14;
 
 import java.util.Arrays;
 import java.util.List;
@@ -146,13 +146,21 @@ public class Main {
      */
     private static void exercise5() {
 
-        System.out.println("\n \n");
+        System.out.println("\n Exercise 5 Bonus:");
 
         for (int timesTableNumber = 1; timesTableNumber <= 10; timesTableNumber++) {
 
+            System.out.print(timesTableNumber+"=");
+
             for(int i=timesTableNumber;i<=timesTableNumber*10;i+=timesTableNumber){
 
-                System.out.println(i);
+                if (i==timesTableNumber*10){
+
+                    System.out.println(i+"\n");
+                }
+                else {
+                    System.out.print(i + ",");
+                }
 
             }
 
