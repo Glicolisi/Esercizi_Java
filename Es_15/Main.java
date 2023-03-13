@@ -63,7 +63,7 @@ public class Main {
                 remainingPoundsToSell -= maxPoundsToSellPerDay;
             }
             daysToSell++;
-            System.out.println(Math.random());
+
         }
 
         System.out.println("It took " + daysToSell + " days to exit that cursed economy");
